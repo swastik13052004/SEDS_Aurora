@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Account Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>User Account Dashboard</h1>
+    </header>
+    <main>
+        <section class="profile-settings">
+            <h2>Profile Settings</h2>
+            <form id="profile-form">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="Enter your location">
+                <button type="submit">Save</button>
+            </form>
+        </section>
+        
+        <section class="user-feedback">
+            <h2>Feedback</h2>
+            <textarea id="feedback" placeholder="Leave your feedback..."></textarea>
+            <button id="submit-feedback">Submit Feedback</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Disaster Preparedness Portal</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
